@@ -419,7 +419,8 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-          Why I Can Help You...
+        
+          <h3 className="major">Why I Can Help You...</h3>
           First and foremost, I love writing code. I am obsessed with the idea of using software to solve practical problems by crafting beautiful & exceptional software that improves the lives of those around me.
           <br />
           <br />
