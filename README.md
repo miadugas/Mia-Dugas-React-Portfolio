@@ -1,2 +1,2 @@
-# MiaDugas-React-Portfolio
+# Mia-Dugas-React-Portfolio
 2nd run
