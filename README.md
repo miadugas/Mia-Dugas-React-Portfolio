@@ -1,2 +1,2 @@
 # Mia-Dugas-React-Portfolio
-2nd run
+Mia Dugas Portfolio Refactored for React
