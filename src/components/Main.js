@@ -133,7 +133,7 @@ class Main extends React.Component {
 {/* #2 */}
 <hr />
 <p>
-          <h2 >Muze Messanger</h2>
+          <h2 >Muze Messenger</h2>
   
           <h3>Real Time Chat Application</h3>
           <h3>React.js, Node.js, Express.js, SocketIO </h3>
@@ -429,8 +429,9 @@ class Main extends React.Component {
           <br />
           I am a musician when not creating software and I find there is a beautiful crossover between my software and music. Both challenge many areas of my intellect; creativity, sequential processing, organization and problem solving. The thirst to create beautiful and powerful things and share them with the world keeps me up at night, motivates me onward and gives me purpose. I am always interested in my next challenge. My eclectic background and bohemian upbringing makes me a rare commodity & you can easily get my attention with vegan non-GMO spring greens smoothie or soy chai quad espresso latte.
           </p>
+    
           <img src={miasig} alt="" />
-
+        
           {close}
         </article>
 
