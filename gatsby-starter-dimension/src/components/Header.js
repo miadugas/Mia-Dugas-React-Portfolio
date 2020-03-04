@@ -77,14 +77,14 @@ const Header = props => (
     </nav>
     <ul className="icons">
             <li>
-              <a href="https://www.linkedin.com/in/miadugas/" className="icon fa-linkedin">
+              <a href="https://www.linkedin.com/in/miadugas/" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer">
                 <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
               <a
                 href="https://github.com/miadugas"
-                className="icon fa-github"
+                className="icon fa-github" target="_blank" rel="noopener noreferrer"
               >
                 <span className="label">GitHub</span>
               </a>
@@ -92,13 +92,13 @@ const Header = props => (
             <li>
               <a
                 href="https://twitter.com/codechickmia"
-                className="icon fa-twitter"
+                className="icon fa-twitter" target="_blank" rel="noopener noreferrer"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/miadugasdesigns" className="icon fa-facebook">
+              <a href="https://www.facebook.com/miadugasdesigns" className="icon fa-facebook" target="_blank" rel="noopener noreferrer">
                 <span className="label">Facebook</span>
               </a>
             </li>

@@ -8,7 +8,6 @@ import pic05 from '../images/pic05.jpg'
 import miasig from '../images/miasig.png'
 import work01 from '../images/work01.png'
 import work02 from '../images/work02.png'
-// import mdres from '../images/mdres.pdf'
 import work04 from '../images/work04.png'
 import work05 from '../images/work05.png'
 import work06 from '../images/work06.png'
@@ -103,7 +102,7 @@ class Main extends React.Component {
           <p>
             <h2 >React Employee Directory</h2>
   
-            <h3>React.js, axios, express, lodash & Github Pages deployment</h3>
+            <h3>React.js, express.js, lodash & Github Pages deployment</h3>
           <h3>16 Feb. 2020</h3>
           An employee directory with Reactjs. This project breaks up the application's UI into components, manage component state, and can respond to user events. This application allows an employee or manager to benefit greatly from being able to view non-sensitive data about other employees and allows for filtering of employees by first or last name.
           </p>
@@ -114,7 +113,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={work04} alt="" />
           </span>
-          <ul className="icons">
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
             <li>
               <a href="https://miadugas.github.io/React-Directory/" target="_blank" rel="noopener noreferrer" className="icon fa-sitemap">
                 <span className="label">Live Site</span>
@@ -137,9 +136,9 @@ class Main extends React.Component {
           <h2 >Muze Messanger</h2>
   
           <h3>Real Time Chat Application</h3>
-          <h3>React.js, Node.js, Express.js, SocketIO</h3>
+          <h3>React.js, Node.js, Express.js, SocketIO </h3>
           <h3>29 Feb. 2020</h3>
-          JAM Stack application
+          JAM Stack application with server side deployed to Heroku and client side deployed to Netlify & Github
           </p>
           {/* <p>
           <h3>KEY ACHIEVEMENTS:</h3>
@@ -151,7 +150,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={work06} alt="" />
           </span>
-          <ul className="icons">
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
             <li>
               <a href="https://affectionate-shirley-f54a8b.netlify.com/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
                 <span className="label">Live Site</span>
@@ -187,7 +186,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={work05} alt="" />
           </span>
-          <ul className="icons">
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
             <li>
               <a href="https://miadugas.github.io/NewYorkTimesAPI-Search/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
                 <span className="label">Live Site</span>
@@ -224,7 +223,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={work02} alt="" />
           </span>
-          <ul className="icons">
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
             <li>
               <a href="https://miadugas.github.io/Weather-Dashboard/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
                 <span className="label">Live Site</span>
@@ -295,7 +294,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={work01} alt="" />
           </span>
-          <ul className="icons">
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
             <li>
               <a href="https://pigeonhole-music.herokuapp.com/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
                 <span className="label">Live Site</span>
@@ -391,10 +390,10 @@ class Main extends React.Component {
           <p>
           • Associate of Arts and Sciences (AAS), Information Technology.
           </p>
-          
-          <a href="https://github.com/miadugas/Pigeonhole"
+          <hr />
+          <a href="https://drive.google.com/open?id=1bKY07szqj4dKVKtH_N3mmdplKSjuOD_z"
                 target="_blank" rel="noopener noreferrer">
-                <span className="label">Download Resume</span>
+                <span className="label" style={{ display: "flex", justifyContent: "center", alignItems: "center"}} ><strong className="icon fa-download" >  Download My Resume</strong></span>
               </a>
 
 
@@ -446,18 +445,32 @@ class Main extends React.Component {
           <br />
           today, shall we?</h2>
           
-          <form method="post" action="#">
+          {/* <form method="post" action="#"> */}
+
+          <form action="https://formspree.io/xqkajprn"
+    method="post" target="_blank">
+
+
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" placeholder="Full name" class="form-control"/>
             </div>
+
+
+
+
+
+
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="email _replyto" id="email" placeholder="Email address" class="form-control" data-rule="email"/>
             </div>
+
+
+
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message"  rows="4" placeholder="Describe your needs..." class="form-control" data-rule="required"></textarea>
             </div>
             <ul className="actions">
               <li>
