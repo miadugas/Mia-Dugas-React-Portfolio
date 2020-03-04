@@ -18,7 +18,7 @@ const Header = props => (
       </div>
     </div>
     <nav>
-      <ul>
+      <ul style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
         {/* <li>
           <button
             onClick={() => {
@@ -28,12 +28,11 @@ const Header = props => (
             Home
           </button>
         </li> */}
-        <li>
+        <li >
           <button
             onClick={() => {
               props.onOpenArticle('tech')
-            }}
-          >
+            }} >
             Technologies
           </button>
         </li>
