@@ -443,9 +443,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Let's start a 
-          conversation 
           <br />
-          today, shall we?</h2>
+          conversation today,
+          <br />
+          shall we?</h2>
           
           {/* <form method="post" action="#"> */}
 
