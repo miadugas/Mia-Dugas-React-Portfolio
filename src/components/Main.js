@@ -100,6 +100,41 @@ class Main extends React.Component {
           </span>
           <hr />
           <p>
+          <h2 >Muze Messenger</h2>
+  
+          <h3>Real Time Chat Application</h3>
+          <h3>React.js, Node.js, Express.js, SocketIO </h3>
+          <h3>29 Feb. 2020</h3>
+          JAM Stack application with server side deployed to Heroku and client side deployed to Netlify & Github. Can be intergated easily into existing or new builds. Customization options are only limited by imagination and it is fully responsive on mobile.
+          </p>
+          {/* <p>
+          <h3>KEY ACHIEVEMENTS:</h3>
+          •	Responsible for internally focused activities supporting pricing, go-to-market plans and business processes for product offerings in compliance with The Gramm-Leach-Bliley Act (GLB).
+          <br />
+          <br />
+          •	Met 6-month MRR and NRR goal of 30k for the company in the first 120 days.
+          </p> */}
+          <span className="image main">
+            <img src={work06} alt="" />
+          </span>
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+            <li>
+              <a href="https://affectionate-shirley-f54a8b.netlify.com/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
+                <span className="label">Live Site</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/miadugas/react-chat"
+                className="icon fa-github" target="_blank" rel="noopener noreferrer"
+              >
+                <span className="label">Github Repo</span>
+              </a>
+            </li>
+            
+          </ul>
+          <hr />
+          <p>
             <h2 >React Employee Directory</h2>
   
             <h3>React.js, express.js, lodash & Github Pages deployment</h3>
@@ -131,15 +166,15 @@ class Main extends React.Component {
           </ul>
 
 {/* #2 */}
-<hr />
-<p>
+{/* <hr /> */}
+{/* <p>
           <h2 >Muze Messenger</h2>
   
           <h3>Real Time Chat Application</h3>
           <h3>React.js, Node.js, Express.js, SocketIO </h3>
           <h3>29 Feb. 2020</h3>
           JAM Stack application with server side deployed to Heroku and client side deployed to Netlify & Github
-          </p>
+          </p> */}
           {/* <p>
           <h3>KEY ACHIEVEMENTS:</h3>
           •	Responsible for internally focused activities supporting pricing, go-to-market plans and business processes for product offerings in compliance with The Gramm-Leach-Bliley Act (GLB).
@@ -147,7 +182,7 @@ class Main extends React.Component {
           <br />
           •	Met 6-month MRR and NRR goal of 30k for the company in the first 120 days.
           </p> */}
-          <span className="image main">
+          {/* <span className="image main">
             <img src={work06} alt="" />
           </span>
           <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
@@ -165,7 +200,34 @@ class Main extends React.Component {
               </a>
             </li>
             
-          </ul>
+          </ul> */}
+
+          {/* <p>
+          <h3>KEY ACHIEVEMENTS:</h3>
+          •	Responsible for internally focused activities supporting pricing, go-to-market plans and business processes for product offerings in compliance with The Gramm-Leach-Bliley Act (GLB).
+          <br />
+          <br />
+          •	Met 6-month MRR and NRR goal of 30k for the company in the first 120 days.
+          </p> */}
+          {/* <span className="image main">
+            <img src={work06} alt="" />
+          </span>
+          <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+            <li>
+              <a href="https://affectionate-shirley-f54a8b.netlify.com/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
+                <span className="label">Live Site</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/miadugas/react-chat"
+                className="icon fa-github" target="_blank" rel="noopener noreferrer"
+              >
+                <span className="label">Github Repo</span>
+              </a>
+            </li>
+            
+          </ul> */}
 
 {/* #3 */}
 <hr />
