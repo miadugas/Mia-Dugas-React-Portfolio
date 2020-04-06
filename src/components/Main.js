@@ -11,6 +11,7 @@ import work02 from '../images/work02.png'
 import work04 from '../images/work04.png'
 import work05 from '../images/work05.png'
 import work06 from '../images/work06.png'
+import work07 from '../images/work07.png'
 
 import '../assets/scss/main.scss'
 
@@ -115,7 +116,7 @@ class Main extends React.Component {
   •	Met 6-month MRR and NRR goal of 30k for the company in the first 120 days.
   </p> */}
   <span className="image main">
-    <img src={work06} alt="" />
+    <img src={work07} alt="" />
   </span>
   <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
     <li>
