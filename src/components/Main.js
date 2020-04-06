@@ -100,6 +100,41 @@ class Main extends React.Component {
           </span>
           <hr />
           <p>
+          <h2 >COVID-19 Tracker/Stats Application</h2>
+  
+  <h3>Real Time COVID-19 Tracker/Stats Application</h3>
+  <h3>React.js, Charts.js, Material UI and many different modules. </h3>
+  <h3>5 April. 2020</h3>
+  React App built with React with Charts.js, Material UI and many different modules. This project fetchs the live data from the API using Async/Await syntax. and it is fully responsive on mobile.
+  </p>
+  {/* <p>
+  <h3>KEY ACHIEVEMENTS:</h3>
+  •	Responsible for internally focused activities supporting pricing, go-to-market plans and business processes for product offerings in compliance with The Gramm-Leach-Bliley Act (GLB).
+  <br />
+  <br />
+  •	Met 6-month MRR and NRR goal of 30k for the company in the first 120 days.
+  </p> */}
+  <span className="image main">
+    <img src={work06} alt="" />
+  </span>
+  <ul className="icons" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+    <li>
+      <a href="https://miadugas-covid19.netlify.com/" className="icon fa-sitemap" target="_blank" rel="noopener noreferrer">
+        <span className="label">Live Site</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/miadugas/corona-app"
+        className="icon fa-github" target="_blank" rel="noopener noreferrer"
+      >
+        <span className="label">Github Repo</span>
+      </a>
+    </li>
+    
+  </ul>
+  <hr />
+  <p>
           <h2 >Muze Messenger</h2>
   
           <h3>Real Time Chat Application</h3>
