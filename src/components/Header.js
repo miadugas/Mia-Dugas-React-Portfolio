@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Mia Dugas Designs</h1>
         <p>
-        A Denver Colorado based Full-Stack Developer 
+        A Full-Stack Developer, Front-End Developer & Web Designer
       with an
       <h3> obsessive</h3> attention to detail.{' '}
       
